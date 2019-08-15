@@ -43,10 +43,7 @@ To complete this project, you will need to turn in the following 4 deliverables:
 2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
 3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
 4. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
-
-### Grading Rubric 
-
-Online students can find a PDF of the grading rubric [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor.  
+ 
 
 ### Jupyter Notebook Must-Haves
 
@@ -88,3 +85,7 @@ Your presentation should:
 * Take no more than 5 minutes to present  
 <br>  
 * Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.  
+
+## Grading Rubric 
+
+Online students can find a PDF of the grading rubric [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor. 
