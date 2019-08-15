@@ -46,7 +46,7 @@ To complete this project, you will need to turn in the following 4 deliverables:
 
 ### Grading Rubric 
 
-Online students can find a PDF of the grading rubric [here](https://github.com/learn-co-curriculum/dsc-mod3-final-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor.  
+Online students can find a PDF of the grading rubric [here](https://github.com/learn-co-curriculum/dsc-mod-3-final-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor.  
 
 ### Jupyter Notebook Must-Haves
 
