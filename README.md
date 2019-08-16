@@ -37,17 +37,19 @@ In addition to answering this question with a hypothesis test, you will also nee
 
 For this hypothesis, be sure to specify both the **_null hypothesis_** and the **_alternative hypothesis_** for your question.  You should also specify if this is one-tail or a two-tail test.
 
-To complete this project, you will need to turn in the following 4 deliverables:
+For online students, there will be four deliverables for this project:
 
 1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to your GitHub repository in order to submit your project.
 2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
 3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
 4. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
+
+For on-campus students, please talk to your instructor for a list of required project deliverables. 
  
 
 ### Jupyter Notebook Must-Haves
 
-For this project, your jupyter notebook should meet the following specifications:
+For this project, your Jupyter Notebook should meet the following specifications:
 
 **_Organization/Code Cleanliness_**
 
@@ -88,4 +90,4 @@ Your presentation should:
 
 ## Grading Rubric 
 
-Online students can find a PDF of the grading rubric [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor. 
+Online students can find a PDF of the grading rubric for this project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor for more information.
