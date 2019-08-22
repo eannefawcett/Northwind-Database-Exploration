@@ -44,8 +44,7 @@ For online students, there will be four deliverables for this project:
 3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
 4. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
 
-For on-campus students, please talk to your instructor for a list of required project deliverables. 
- 
+Note: On-campus students may have different delivarables, please speak with your instructor. 
 
 ### Jupyter Notebook Must-Haves
 
@@ -90,4 +89,4 @@ Your presentation should:
 
 ## Grading Rubric 
 
-Online students can find a PDF of the grading rubric for this project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). On-campus students should contact their instructor for more information.
+Online students can find a PDF of the grading rubric for this project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._
