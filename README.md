@@ -37,15 +37,18 @@ In addition to answering this question with a hypothesis test, you will also nee
 
 For this hypothesis, be sure to specify both the **_null hypothesis_** and the **_alternative hypothesis_** for your question.  You should also specify if this is one-tail or a two-tail test.
 
-To complete this project, you will need to turn in the following 3 deliverables:
+For online students, there will be four deliverables for this project:
 
-1. A **_Jupyter Notebook_** containing any code you've written for this project.
-2. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
-3. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
+1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to your GitHub repository in order to submit your project.
+2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
+3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
+4. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
+
+Note: On-campus students may have different delivarables, please speak with your instructor. 
 
 ### Jupyter Notebook Must-Haves
 
-For this project, your jupyter notebook should meet the following specifications:
+For this project, your Jupyter Notebook should meet the following specifications:
 
 **_Organization/Code Cleanliness_**
 
@@ -83,3 +86,7 @@ Your presentation should:
 * Take no more than 5 minutes to present  
 <br>  
 * Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.  
+
+## Grading Rubric 
+
+Online students can find a PDF of the grading rubric for this project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._
