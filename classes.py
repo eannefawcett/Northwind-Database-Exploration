@@ -1,4 +1,4 @@
-class pvalue:
+class Pvalue:
     def __init__(self, alpha, pvalue):
         self.alpha = alpha
         self.pvalue = pvalue
