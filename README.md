@@ -1,92 +1,36 @@
+# **Northwind Database Exploration**
+# Methodology
+This database contains information about the selling and purchasing of food items by a fictional company, Northwind. The approach that I took in exploring the database was to ask questions with the mindset of improving the bottom line. I split my approach into two methods of attack. I first thought about ways to increase customer spending and then methods by which to reduce overhead.
 
-# Module 3 -  Final Project Specifications
+# Increasing Customer Spending
+This repository contains two jupyter notebooks that address the exploration into increasing customer spending. They are titled:
+- Discount and Quantity
+- Reorder and Discount
 
-## Introduction
+# Reducing Overhead
+This repository contains two juypter notebooks that address the exploration into reducing overhead. They are titled:
+- Product Price and OrderDetail Price
+- Region Performance
 
-In this lesson, we'll review all the guidelines and specifications for the final project for Module 3.
+# Database Access
+In each juypter notebook, the database is initialized and connected to. The SQL queries are similarly included in each notebook. The database is also included in this repository.
 
-## Objectives
+## Discount and Quantity
+The primary question being addressed in this notebook is:
+**Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?**
+Ultimately, discount does have an affect on the quantity of a product in an order, at every level. The level of discount does not further impact quantity. To increase customer spending, it might be advantageous to move towards offering smaller discounts more frequently.
 
-* Understand all required aspects of the Final Project for Module 3
-* Understand all required deliverables
-* Understand what constitutes a successful project
+## Reorder and Discount
+The primary question being addressed in this notebook is:
+**Does reorder and shipping company affect customer spending on an order? Which shipping company is best for what level of reorder?**
+Customer spending is affected by having a reorder on file. It's actually decreased. However, there is a specific reorder level that mirrors customer spending without reorder. So, it might be worth moving customers to a reorder level of 15 to increase spending to the same level as customers without a reorder on file. Additionally, shipping company 1 is the ideal company to be used for orders that have a reorder on them, followed by shipping company 3.
 
-### Final Project Summary
+## Product Price and OrderDetail Price
+The primary question being addressed in this notebook is:
+**Do the changes in product pricing affect spending?**
+The changes in product pricing do affect customer spending.
 
-Another module down--you're half way there!
-
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-3-project/master/halfway-there.gif'>
-
-For the culmination of Module 3, you just need to complete the final project!
-
-### The Project
-
-For this project, you'll be working with the Northwind database--a free, open-source dataset created by Microsoft containing data from a fictional company. You probably remember the Northwind database from our section on Advanced SQL. Here's the schema for the Northwind database:
-
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-3-project/master/Northwind_ERD_updated.png'>
-
-The goal of this project is to test your ability to gather information from a real-world database and use your knowledge of statistical analysis and hypothesis testing to generate analytical insights that can be of value to the company.
-
-## The Deliverables
-
-The goal of your project is to query the database to get the data needed to perform a statistical analysis.  In this statistical analysis, you'll need to perform a hypothesis test (or perhaps several) to answer the following question:
-
-**_Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?_**
-
-In addition to answering this question with a hypothesis test, you will also need to come up with **_at least 3 other hypotheses to test on your own_**.  These can by anything that you think could be imporant information for the company.
-
-For this hypothesis, be sure to specify both the **_null hypothesis_** and the **_alternative hypothesis_** for your question.  You should also specify if this is one-tail or a two-tail test.
-
-For online students, there will be four deliverables for this project:
-
-1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to your GitHub repository in order to submit your project.
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
-3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
-4. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
-
-Note: On-campus students may have different delivarables, please speak with your instructor. 
-
-### Jupyter Notebook Must-Haves
-
-For this project, your Jupyter Notebook should meet the following specifications:
-
-**_Organization/Code Cleanliness_**
-
-* The notebook should be well organized, easy to follow, and code is commented where appropriate.  
-<br>  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code. All functions have docstrings that act as professional-quality documentation.  
-<br>      
-* The notebook is written to technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.  
-<br>    
-* Any SQL code written to source data should also be included.  
-
-**_Findings_**
-
-* Your notebook should clearly show how you arrived at your results for each hypothesis test, including how you calculated your p-values.   
-<br>
-* You should also include any other statistics that you find relevant to your analysis, such as effect size.
-
-### Blog Post Must-Haves
-
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging) for the technical requirements and blog ideas.
-
-
-### Executive Summary Must-Haves
-
-Your presentation should:
-
-* Contain between 5-10 professional quality slides detailing:
-<br>  
-    * A high-level overview of your methodology  
-    <br>  
-    * The results of your hypothesis tests  
-    <br>  
-    * Any real-world recommendations you would like to make based on your findings (ask yourself--why should the executive team care about what you found? How can your findings help the company?)  
-    <br>  
-* Take no more than 5 minutes to present  
-<br>  
-* Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.  
-
-## Grading Rubric 
-
-Online students can find a PDF of the grading rubric for this project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project/blob/master/module3_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._
+## Region Performance
+The primary question being addressed in this notebook is:
+**Which region is performing the best? How can we optimize performance?**
+There are two regions that performed better than the rest. The regions included the cities: Phoenix, AZ, USA, Scottsdale, AZ, USA, Bellevue, WA, USA, Redmond, WA, USA, Seattle, WA, USA, Wilton, England, UK, and Neward, England, UK. And this enhanced performance actually came from two employees: Nancy Davolio in the US and Michael Suyama in the UK. When compared to the other employees, Nancy and Michael both had a higher frequency of orders that had less items in them. It might be worth offering incentives to employees to increase the number of orders that they take, or increasing client communication.
